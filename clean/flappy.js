@@ -16,11 +16,11 @@ var pipeInterval = 1.75;
 // Loads all resources for the game and gives them names.
 function preload() {
     // make image file available to game and associate with alias playerImg
-    game.load.image("playerImg","../../assets/jamesBond.gif");
+    game.load.image("playerImg","../assets/jamesBond.gif");
     // make sound file available to game and associate with alias score
-    game.load.audio("score", "../../assets/point.ogg");
+    game.load.audio("score", "../assets/point.ogg");
     // make image file available to game and associate with alias pipe
-    game.load.image("pipe","../../assets/pipe.png");
+    game.load.image("pipe","../assets/pipe.png");
 }
 
 // Initialises the game. This function is only called once.
