@@ -1,7 +1,3 @@
-//NOTE: This bug might crash your browser (or your tab) and slow down your
-//computer. This is the intended behaviour that you need to investigate
-
-
 var actions = { preload: preload, create: create, update: update };
 var game = new Phaser.Game(790, 400, Phaser.AUTO, "game", actions);
 var score = 0;
